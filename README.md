@@ -15,6 +15,11 @@ npm run serve
 npm run double
 ```
 
+### сборка проекта для demo (нужно протестировать)
+```
+build:demo
+```
+
 ### Compiles and minifies for production
 ```
 npm run build
