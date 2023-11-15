@@ -1,0 +1,35 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/src/assets/fonts/FuturaPT-Book.woff2') format('woff2'),
+    url('/src/assets/fonts/FuturaPT-Book.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 450;
+  src: url('/src/assets/fonts/FuturaPT-Medium.woff2') format('woff2'),
+    url('/src/assets/fonts/FuturaPT-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'TTBells';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/src/assets/fonts/TTBells-Regular.woff2') format('woff2'),
+    url('/src/assets/fonts/TTBells-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'TTBells';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/src/assets/fonts/TTBells-Bold.woff2') format('woff2'),
+    url('/src/assets/fonts/TTBells-Bold.woff') format('woff');
+}

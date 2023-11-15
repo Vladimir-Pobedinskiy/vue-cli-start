@@ -10,6 +10,11 @@ npm install
 npm run serve
 ```
 
+### запуск сразу и local и json сервера ( npm run serve & npm run server )
+```
+npm run double
+```
+
 ### Compiles and minifies for production
 ```
 npm run build

@@ -1,0 +1,18 @@
+{
+  "main": {
+    "navLinks": [
+      {
+        "title": "Главная",
+        "url": "/"
+      },
+      {
+        "title": "О проекте",
+        "url": "/about"
+      },
+      {
+        "title": "To-do list",
+        "url": "/to-do-list"
+      }
+    ]
+  }
+}

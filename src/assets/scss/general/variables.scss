@@ -1,0 +1,45 @@
+$mobile: 480px;
+$mobile-big: 576px;
+$tablet: 768px;
+$tablet-big: 992px;
+$desktop-small: 1024px;
+$desktop: 1200px;
+$desktop-big: 1400px;
+
+$two-K-Display: 2560px;
+$four-K-Display: 3840px;
+
+$mobile-for-maxWidth: 479px;
+$mobile-big-for-maxWidth: 575px;
+$tablet-for-maxWidth: 767px;
+$tablet-big-for-maxWidth: 991px;
+$desktop-small-for-maxWidth: 1023px;
+$desktop-for-maxWidth: 1199px;
+$desktop-big-for-maxWidth: 1399px;
+
+$font: "Futura", "Arial", sans-serif;
+$font-for-title: "TTBells", "Arial", sans-serif;
+
+$color-black: #000000;
+$color-white: #FFFFFF;
+
+$color-gray: #464646;
+$color-gray-dark: #151719;
+$color-gray-medium: #7D7D7D;
+$color-gray-light: #9E9E9E;
+$color-gray-lighter: #F8F8F8;
+$color-gray-disabled: rgba(199, 199, 199, 0.5);
+
+$color-success: #0B873E;
+$color-success-light: #E7FFF1;
+$color-error: #F80505;
+$color-error-light: #FFEFEF;
+
+$color-viber: #615EEE;
+$color-instagram: #D82D7E;
+$color-vk: #0077FF;
+$color-whatsapp: #27B43D;
+$color-telegram: #00B2FF;
+$color-vue: #3eaf7c;
+
+$paddingOffset: max(16px, calc((100% - 1240px) / 2));
