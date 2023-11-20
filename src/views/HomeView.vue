@@ -32,8 +32,7 @@ export default {
       changeDataStore: 'changeData'
     }),
     changeData() {
-      this.$store.dispatch('changeData', this.inputValue)
-      // this.changeDataStore(this.inputValue)
+      this.changeDataStore(this.inputValue)
     }
   }
 }
