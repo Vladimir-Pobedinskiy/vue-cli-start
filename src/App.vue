@@ -8,6 +8,11 @@
 
   <AppFooter />
 
+  <div v-if="showIcons" class="img-wrapper visually-hidden">
+    <img src="@/assets/icons/icon-error-404.svg" alt="">
+    <img src="@/assets/icons/icon-vk.svg" alt="">
+  </div>
+
 </template>
 
 <script>
@@ -18,6 +23,11 @@ export default {
   name: 'App',
   components: {
     AppHeader, AppFooter
+  },
+  data() {
+    return {
+      showIcons: false
+    }
   }
 }
 </script>

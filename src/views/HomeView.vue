@@ -7,6 +7,17 @@
     <button class="btn mb" @click="changeData">Изменить Store</button>
     <p class="mb color">Данные из data(inputValue): {{ inputValue === null ? 'null' : inputValue }}</p>
     <p class="mb color">Данные из Store: {{ getData }}</p>
+    <br />
+    <p class="h3 mb">Sprite Svg:</p>
+    <div class="vk-wrapper">
+      <svg class="vk-icon" width="40px" height="40px">
+        <use xlink:href="#icon-vk"></use>
+      </svg>
+    </div>
+    <p class="h3 mb">Изображение Img:</p>
+    <div class="img-wrapper">
+      <img src="/img/index/index-showcase-img-1.png" alt="image">
+    </div>
   </div>
 </template>
 
@@ -50,4 +61,23 @@ export default {
   margin-bottom: 12px;
 }
 
+.img-wrapper {
+  width: 100px;
+  height: 100px;
+}
+.img-wrapper img {
+  object-fit: contain;
+}
+.vk-wrapper {
+  width: fit-content;
+  transition: color 0.2s ease;
+
+  @media (min-width:$desktop) {
+    &:hover {
+      color: $color-vk;
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+  }
+}
 </style>

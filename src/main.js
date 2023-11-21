@@ -4,7 +4,6 @@ import './registerServiceWorker'
 import router from './router'
 import { store } from './store'
 
-// стили
 import './assets/scss/main.scss'
 
 const app = createApp(App)

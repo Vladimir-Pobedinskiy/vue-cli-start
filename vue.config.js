@@ -85,7 +85,35 @@ module.exports = defineConfig({
     }
   },
 
+  configureWebpack: {
+    module: {
+      rules: [
+        {
+          test: /\.(svg)(\?.*)?$/,
+          include: [path.resolve(__dirname, 'src/assets/icons/')],
+          use: [
+            {
+              loader: 'svg-sprite-loader',
+              options: {
+                limit: 10000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+
   chainWebpack: (config) => {
+    config.module
+      .rule('svg')
+      .exclude.add(path.resolve(__dirname, 'src/assets/icons/'))
+      .end()
+      .test(() => false)
+      .use('svg-sprite-loader')
+      .loader('svg-sprite-loader')
+      .end()
+
     // style-resources-loader
     config.module
       .rule('scss')
